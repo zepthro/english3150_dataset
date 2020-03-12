@@ -3,7 +3,7 @@ FILE_NAME <- "3150 DATASET.xlsx"
 
 
 open_excel <- function() {
-  return (read_excel(file.path(FILE_NAME), skip=6))
+  return (read_excel(file.choose(), skip=6))
   
 }
 
